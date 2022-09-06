@@ -1,0 +1,44 @@
+/*
+ *  Copyright (c) 2018-present, Evgeny Nadymov
+ *
+ * This source code is licensed under the GPL v.3.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.group-call {
+    --group-call-text-primary: #ffffff;
+    --group-call-text-secondary: #909f9f;
+    --group-call-panel: #192626;
+    --group-call-participants-panel: #2b3c3e;
+    --group-call-participants-item-hover: #304246;
+    --group-call-button-settings: #354141;
+    --group-call-button-settings-connecting: #354140;
+    --group-call-button-settings-muted: #006265;
+    --group-call-button-settings-muted-by-admin: #354141;
+    --group-call-button-settings-unmuted: #004c55;
+    --group-call-button-leave: #803892;
+    --group-call-button-answer: #38948b;
+    --group-call-status-listening: #3bffdb;
+    --group-call-status-speaking: #6befd2;
+    --group-call-status-muted-by-admin: #f16afd;
+
+    color: white;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 380px;
+    min-height: 600px;
+    user-select: none;
+}
+
+.group-call-full-screen {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
