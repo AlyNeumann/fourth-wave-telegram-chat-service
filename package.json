@@ -1,6 +1,5 @@
 {
-  "homepage": "https://evgeny-nadymov.github.io/telegram-react",
-  "name": "telegram_react",
+  "name": "fourth-wave-chat-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,8 +36,7 @@
     "build": "react-app-rewired build && sw-precache-cra --config sw-config.js --no-minify",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build",
     "stats": "react-app-rewired build --bundle-report && npx webpack-bundle-analyzer ./build/bundle-stats.json"
   },
   "devDependencies": {
