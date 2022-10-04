@@ -371,7 +371,7 @@ class TelegramApp extends Component {
                     onClose={this.handleRefresh}
                     aria-labelledby='fatal-error-dialog-title'
                     aria-describedby='fatal-error-dialog-description'>
-                    <DialogTitle id='fatal-error-dialog-title'>Telegram</DialogTitle>
+                    <DialogTitle id='fatal-error-dialog-title'>Fourth Wave Telegram App</DialogTitle>
                     <DialogContent>
                         <DialogContentText id='fatal-error-dialog-description'>
                             Oops! Something went wrong. We need to refresh this page.

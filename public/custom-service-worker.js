@@ -34,7 +34,7 @@ self.addEventListener('push', event => {
         obj = event.data.text();
     }
 
-    let title = obj.title || 'Telegram';
+    let title = obj.title || 'Fourth Wave Chat App';
     let body = obj.description || obj;
     const options = {
         body: body,

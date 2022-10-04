@@ -1,7 +1,7 @@
 {
-  "name": "Telegram",
-  "description": "Telegram Web App.\nMore info & source code here: https://github.com/evgeny-nadymov/telegram-react",
-  "short_name": "Telegram",
+  "name": "Fourth Wave Telegram App",
+  "description": "Chat App Using Telegram API Web App.\nMore info & source code here: https://github.com/AlyNeumann/fourth-wave-telegram-chat-service",
+  "short_name": "Fourth Wave Chat",
   "display": "standalone",
   "theme_color": "#000000",
   "gcm_sender_id": "795646555577",
